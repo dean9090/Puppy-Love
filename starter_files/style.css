@@ -1,0 +1,148 @@
+
+
+html {
+  background-image: url("img/bg.jpg");
+  padding: .5em 5em 3em 5em;
+  font-family: Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+}
+
+body {
+  background-color: white;
+  padding: 1em;
+  border-color: #ffd24a;
+  border-style: solid;
+  padding: 0;
+}
+
+/***********************************/
+
+
+#site_header {
+  background-color: #ff8523;
+  padding: 1em 1em 3em 1em;
+}
+
+#logo img{
+  margin-bottom: 20px;
+}
+
+#site_header nav a{
+  color: white;
+  padding: .5em 2em .5em 2em;
+  text-decoration: none;
+  border: solid white;
+  border-width: 1px;
+  border-radius: 5px;
+}
+
+#page_content {
+  padding: 1em 1em 2em 1em;
+}
+
+#page_content a {
+    color: #1fabe5;
+}
+
+#page_content section {
+  border-bottom: solid #eee;
+  padding-bottom: 2em;
+}
+
+#page_content section h1{
+    color: #1fabe5;
+}
+
+#page_content section h2{
+    color: #1fabe5;
+}
+
+#page_content section h3{
+    color: #1fabe5;
+}
+
+#page_content section ul{
+    font-weight: bold;
+}
+
+#page_content section table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+#page_content section table tr td{
+  border: 1px solid #046c97;
+}
+#page_content section table thead tr td{
+  background-color: #1fabe5;
+  color: white;
+  padding: 1em 3em 1em 1em;
+}
+
+#page_content section table tbody tr td {
+  padding: 1em 1em 1em 1em;
+}
+
+#page_content section table img {
+  height: 75px;
+  width: 75px;
+}
+
+#page_content section form {
+  background-color: #eee;
+  padding: 1em 1em 1em 1em;
+  border-radius: 7px;
+}
+
+#first_name {
+  width: 15em;
+  height: 2.5em;
+  margin-right: 1em;
+}
+
+#last_name {
+  width: 15em;
+  height: 2.5em;
+}
+
+#page_content div.name {
+  background-color: #ff8523;
+  padding: 1em 1em 1em 1em;
+  border-radius: 7px;
+  margin-bottom: 3em;
+  color: white;
+}
+
+#page_content div.city_container {
+  padding: 1em 1em 1em 0em;
+  font-weight: bold;
+}
+#bio {
+  width: 100%;
+  height: 20em;
+  border-color: #1fabe5;
+}
+#submit_button {
+  background-color: #1fabe5;
+  border: 0;
+  border-radius: 5px;
+  padding: 1em 2em 1em 2em;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+
+/*
+font info:
+    family - Helvetica, Arial, sans-serif
+    line-height - 1.6
+
+
+colors:
+    light gray - ##eee
+    gray - #dddddd
+    yellow - #ffd24a
+    orange - #ff8523
+    blue - #1fabe5
+    dark blue - #046c97
+*/
